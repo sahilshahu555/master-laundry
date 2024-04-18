@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <div className=' bg-[#2F9EBF]' id='FOOTER'>
 
-        <div className='flex flex-col md:flex-row md:items-start px-10 md:px-0 justify-around gap-10 md:gap-3     text-gray-600 py-14' >
+        <div className='flex flex-col md:flex-row md:items-start px-10 md:px-0 justify-around gap-10 md:gap-3     text-white  py-14' >
             
             <div className="divF1 flex flex-col gap-1">
 
@@ -44,7 +44,7 @@ const Footer = () => {
 
         <div className='text-center  relative pb-5 '>
 
-           <div className="absolute left-[20%]  lg:left-[37%] -top-4 bg-white px-5 flex flex-col items-center justify-center gap-5 text-[#707581] p-2">
+           <div className="absolute left-[20%]  lg:left-[37%] -top-4 bg-white px-5 flex flex-col items-center justify-center gap-5 text-[#2F9EBF] p-2">
 
             <div className="flex items-center gap-5 "> 
               <p className="   text-xs ">© Copyright masterlaundry.co 2024</p>

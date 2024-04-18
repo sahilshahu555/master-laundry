@@ -1,14 +1,13 @@
 import Hero from "./components/Hero"
-import Info from "./components/Info"
+
 
 
 type Props = {}
 
 const HomeComponent = (props: Props) => {
   return (
-    <div>
+    <div className="bg-gradient-to-r from-white  to-[#DADBDC] pb-8">
         <Hero/>
-        <Info/>
     </div>
   )
 }
