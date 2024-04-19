@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <div className=' bg-[#2F9EBF]' id='FOOTER'>
 
-        <div className='flex flex-col md:flex-row md:items-start px-10 md:px-0 justify-around gap-10 md:gap-3     text-white  py-14' >
+        <div className='flex flex-col md:flex-row md:items-start px-10 md:px-0 justify-around gap-10 md:gap-3 text-white  py-14' >
             
             <div className="divF1 flex flex-col gap-1">
 
