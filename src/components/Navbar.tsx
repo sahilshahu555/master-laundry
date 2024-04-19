@@ -32,14 +32,14 @@ const Navbar = () => {
             
 
             <div className="MOBILE-VIEW md:hidden  w-full  ">
-                <div className="flex  justify-around items-center p-2">
+                <div className="flex  justify-between  items-center px-10 p-2">
                 <Image src="/navbar/logoNav.png"  alt="logo" className="w-10" width={50} height={50}/>
                     <button  onClick={()=>{setMenu(!menu)}}>
                     <IoMenu className="text-white w-10 h-10" />
                     </button>
                 </div>
 
-                <div className={` ${menu?"grid grid-cols-2 gap-x-16 gap-y-4 pl-20 p-3 font-semibold ":"hidden"} ease-in duration-1000  text-white`}onClick={()=>{setMenu(!menu)}}>
+                <div className={` ${menu?"grid grid-cols-2 gap-x-10 gap-y-4 pl-20 p-3 font-semibold ":"hidden"} ease-in duration-1000  text-white`}onClick={()=>{setMenu(!menu)}}>
 
                     <Link className="hover:text-black" href="/">Home</Link>
                     <Link className="hover:text-black" href="/">About</Link> 

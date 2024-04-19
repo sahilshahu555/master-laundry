@@ -14,7 +14,7 @@ const Hero = (props: Props) => {
         <Image src="/page1/page1-1.svg" alt="press" className='w-[2rem] md:w-[4rem] lg:w-[5rem]' width={80} height={80} />
       </div>
 
-      <div className='Div2 -z-2 absolute  lg:top-10 md:left-20 left-14 w-[90%] md:w-[93%]'>
+      <div className='Div2 -z-2 absolute  lg:top-10 md:left-20 left-14 w-[84%] md:w-[93%]'>
           <Image src="/page1/page1-3.svg" alt="rope" className=' lg:w-[100%] h-[24rem] md:h-[27rem] lg:h-[23.5rem]' width={1000} height={1000}  />
       </div>
 

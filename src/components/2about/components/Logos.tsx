@@ -27,7 +27,7 @@ const Logos = (props: Props) => {
 
             <Image id="logo5" src="/page2/logo/logo5.svg" alt="logo2" width={500} height={500} className='w-[35px] md:w-[80px]  lg:w-[110px] absolute  top-12 left-[300px] md:top-[6.5rem] md:left-[39rem] lg:top-[11.5rem] lg:left-[60.5rem]'/>
 
-            <Image id="logo6" src="/page2/logo/logo6.svg" alt="logo2" width={500} height={500} className='w-[35px] md:w-[85px]  lg:w-[140px] absolute  top-[8rem] left-[335px] md:top-[18rem] md:left-[44rem] lg:top-[27rem] lg:left-[67.5rem]'/>
+            <Image id="logo6" src="/page2/logo/logo6.svg" alt="logo2" width={500} height={500} className='w-[35px] md:w-[85px]  lg:w-[140px] absolute  top-[8.5rem] left-[335px] md:top-[18rem] md:left-[44rem] lg:top-[27rem] lg:left-[67.5rem]'/>
 
             <Image id="logo7" src="/page2/logo/aMain.svg" alt="logo2" width={500} height={500} className='w-[60px] md:w-[140px]  lg:w-[240px] absolute  top-14 left-[161px] md:top-[9.5rem] md:left-[21rem] lg:top-[11rem] lg:left-[31rem]'/>
 
