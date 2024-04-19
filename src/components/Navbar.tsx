@@ -7,7 +7,7 @@ const Navbar = () => {
     const[menu,setMenu] = useState(false)
   return (
 
-        <nav id="nav" className="NAVBAR bg-[#2F9EBF] text-black  flex items-center justify-around py-2 sticky top-0 lg:gap-24 border-b z-10">
+        <nav id="nav" className="NAVBAR bg-[#2F9EBF] text-black  flex items-center justify-around py-2 sticky top-0 lg:gap-24  z-10">
             
 
             <div className="LOGO hidden md:flex  items-center justify-center gap-0">
