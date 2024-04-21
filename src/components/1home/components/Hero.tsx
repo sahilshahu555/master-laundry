@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import { TbMail } from "react-icons/tb";
+
 type Props = {}
 
 const Hero = (props: Props) => {
@@ -22,36 +22,13 @@ const Hero = (props: Props) => {
          <Image src="/page1/page1-2.svg" alt="logo" className='w-[100%] h-[19rem] md:h-[26rem]' width={1000} height={1000}  />
       </div>
 
-      <div className='Div4 text-white bg-[#2F9EBF] px-8 py-2.5 mt-5 w-[80%] md:w-[55%] lg:w-[30%] m-auto rounded-full text-center text-md md:text-xl tracking-wider '>
+      <div className='Div4 text-white bg-[#2F9EBF] px-8 py-2.5 mt-5 w-[85%] md:w-[55%] lg:w-[30%] m-auto rounded-full text-center text-md md:text-xl tracking-wider animate-fade-up'>
            <h4 className='font-bold '>WE DELIVERY</h4>
            <h4 className='font-bold mt-1'>HAPPINESS WITH CLOTHES</h4>
       </div>
 
-      <div className='Div5 text-white py-5 font-bold tracking-wider'>
-
-       <div className='div1 flex gap-4 md:gap-10  items-center bg-[#2F9EBF] w-[85%] md:w-[45%] lg:w-[40%] border-r-[5px] rounded-r border-gray-500 py-1 my-5 pl-2 lg:pl-20' >
-           <Image src="/page1/logo1.svg" alt="logo2" width={50} height={50} className='w-6 h-6'/>
-           <p className=''>+91 7888005889</p>
-        </div>
-       
-        <div className='div2 flex gap-4 md:gap-10  items-center bg-[#2F9EBF] w-[85%] md:w-[45%] lg:w-[40%] border-r-[5px] rounded-r border-gray-500 py-1 my-5 pl-2 lg:pl-20' >
-           <Image src="/page1/logo2.svg" alt="logo2" width={50} height={50} className='w-6 h-6'/>
-           <p className=''>{"www.masterlaundry.com"}</p>
-        </div>
-
-        <div className='div3 flex gap-4 md:gap-10  items-center bg-[#2F9EBF] w-[85%] md:w-[45%] lg:w-[40%] border-r-[5px] rounded-r border-gray-500 py-1 my-5 pl-2 lg:pl-20' >
-           <TbMail className='w-7 h-7'/>
-           <p className=''>ml.masterlaundry@gmail.com</p>
-        </div>
-
-          
-        <div className='div4 flex gap-4 md:gap-10  items-center bg-[#2F9EBF] w-[85%] md:w-[45%] lg:w-[40%] border-r-[5px] rounded-r border-gray-500 py-1 my-5 pl-2 lg:pl-20' >
-           <Image src="/page1/logo4.svg" alt="logo2" width={50} height={50} className='w-6 h-6'/>
-           <p className='w-[73%] md:w-[65%] lg:w-[55%]'>Gaddi Godam, Kamptee Road, Sadar, Nagpur 440001.</p>
-        </div>
-
-      </div>
-
+     
+      <p className='bg-[#2F9EBF] text-center font-bold text-white mt-10 tracking-widest py-0.5'>MASTER LAUNDRY SERVICES</p>
     </div>
   )
 }

@@ -14,6 +14,7 @@ const Navbar = () => {
                <Link href="/#">
                  <Image src="/navbar/logoNav.png"  alt="logo" className="w-10 h-10" width={50} height={50}/>
                </Link >
+               <span className="text-white font-[900] ml-4 text-2xl">Master Laundry</span>
             </div>
 
             <div className="LAPTOP-VIEW hidden md:flex justify-center  items-center   ">
@@ -34,6 +35,8 @@ const Navbar = () => {
             <div className="MOBILE-VIEW md:hidden  w-full  ">
                 <div className="flex  justify-between  items-center px-10 p-2">
                 <Image src="/navbar/logoNav.png"  alt="logo" className="w-10" width={50} height={50}/>
+               <span className="text-white font-[900]  text-2xl">Master Laundry</span>
+
                     <button  onClick={()=>{setMenu(!menu)}}>
                     <IoMenu className="text-white w-10 h-10" />
                     </button>
