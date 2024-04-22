@@ -74,7 +74,7 @@ const Vision = (props: Props) => {
             </div>
 
        </div>
-       <p className='bg-[#2F9EBF] text-center font-bold text-white mt-10 tracking-widest py-0.5'>MASTER LAUNDRY SERVICES</p>
+       <p id='TERMS' className='bg-[#2F9EBF] text-center font-bold text-white mt-10 tracking-widest py-0.5'>MASTER LAUNDRY SERVICES</p>
     </div>
   )
 }

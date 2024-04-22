@@ -27,8 +27,10 @@ const Hero = (props: Props) => {
            <h4 className='font-bold mt-1'>HAPPINESS WITH CLOTHES</h4>
       </div>
 
-     
-      <p className='bg-[#2F9EBF] text-center font-bold text-white mt-10 tracking-widest py-0.5'>MASTER LAUNDRY SERVICES</p>
+     <div id="ABOUT" className="bg-[#2F9EBF] text-sm md:text-md">
+      <p  className='text-center font-bold  text-white mt-10 tracking-wider py-1.5 leading-6'>WE SPECIALLY DEALS IN B-2-B BUSINESSES LIKE HOSPITALS | HOSTELS | EDUCATION SECTOR</p>
+      
+      </div>
     </div>
   )
 }

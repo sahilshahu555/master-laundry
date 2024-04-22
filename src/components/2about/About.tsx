@@ -39,7 +39,7 @@ const About = (props: Props) => {
         
         <h2 className="bg-white px-4 py-2 text-2xl font-bold text-[#2F9EBF] md:ml-16 w-fit m-auto rounded-xl">How we have started </h2>
 
-        <p className="text-lg font-semibold mx-5 md:mx-20 my-16 tracking-wider">{"We are in this field since 1970. We are serving in many educational institutions such as Ramdeo  Engineering College,  VNIT and many Hospitals and Nursing home's.Our happy customers are the proof of our reliability. Till date no customer have any complaints about our services.We are professionals in our services having all the necessary equipments but we prefer hand washed clothes.Being young entrepreneurs we assure you of quality and reasonable service. Loyalty in our services is our team's strength."}</p>
+        <p id="SERVICE" className="text-lg font-semibold mx-5 md:mx-20 my-16 tracking-wider">{"We are in this field since 1970. We are serving in many educational institutions such as Ramdeo  Engineering College,  VNIT and many Hospitals and Nursing home's.Our happy customers are the proof of our reliability. Till date no customer have any complaints about our services.We are professionals in our services having all the necessary equipments but we prefer hand washed clothes.Being young entrepreneurs we assure you of quality and reasonable service. Loyalty in our services is our team's strength."}</p>
 
         <h1 className="bg-white px-2 py-2 text-2xl md:text-4xl font-bold text-[#2F9EBF] w-[95%] md:w-3/4 lg:w-1/2 pl-4 md:pl-20 tracking-wider rounded-r-lg">HAPPY TO SERVE YOU!!</h1>
 
@@ -54,7 +54,7 @@ const About = (props: Props) => {
             </div>
           ))}
         </div>
-        <p className='bg-[#2F9EBF] text-center font-bold text-white mt-10 tracking-widest py-0.5'>MASTER LAUNDRY SERVICES</p>
+        <p id="VISION" className='bg-[#2F9EBF] text-center font-bold text-white mt-10 tracking-widest py-0.5'>MASTER LAUNDRY SERVICES</p>
     </div>
   )
 }
