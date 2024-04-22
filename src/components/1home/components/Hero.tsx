@@ -28,7 +28,7 @@ const Hero = (props: Props) => {
       </div>
 
      <div id="ABOUT" className="bg-[#2F9EBF] text-sm md:text-md">
-      <p  className='text-center font-bold  text-white mt-10 tracking-wider py-1.5 leading-6'>WE SPECIALLY DEALS IN B-2-B BUSINESSES LIKE HOSPITALS | HOSTELS | EDUCATION SECTOR</p>
+      <p  className='text-center font-bold  text-white mt-10 tracking-wider py-1.5 leading-6'>WE SPECIALLY DEALS IN BUSINESS TO BUSINESS HOSPITALS | HOSTELS | HOTELS</p>
       
       </div>
     </div>

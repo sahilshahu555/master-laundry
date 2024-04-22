@@ -10,7 +10,7 @@ const Terms = (props: Props) => {
       title: "We Are Company Registered & Doing Work In Nagpur Jurisdiction Only, If You Have Any Complaints, Please Contact Us At ml.masterlaundry@gmail.com & On Our Portal"
     },
     {
-      title: "Your Order For The Services As Set Out In The Order Form Submitted Via The Portal, executive Provided To You, On Call & Through What's Up Only"
+      title: "Your Order For The Services As Set Out In The Order Form Submitted Via The Portal, executive Provided To You, On Call & Through WhatsApp Only"
     },
     {
       title: "Services Personal Dry Cleaning Or Laundry Services Collected From And Delivered To Your Nominated Address"
