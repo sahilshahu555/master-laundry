@@ -3,6 +3,8 @@ import { Roboto } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import GoogleAdsense from "@/components/Footer";
+
 
 const inter = Roboto({ subsets: ["latin"], weight:["100", "300", "400", "500", "700", "900"] });
 
@@ -23,6 +25,7 @@ export default function RootLayout({
         {children}
         <Footer/>
       </body>
+      <GoogleAdsense/>
     </html>
   );
 }
