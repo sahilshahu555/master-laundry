@@ -5,7 +5,7 @@ export const metadata = {
   name:"google-adsense-account", 
   content:"ca-pub-6313035859774742"
 };
-const GoogleAdsense = () => {
+const GoogleAdsense  = () => {
   
   return (
     <Script
